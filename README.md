@@ -1,2 +1,2 @@
 # akusaraproject.github.io
-main website
+contribution
