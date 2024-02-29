@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/theme-blue.css" />
 </head>
 
 <body>
@@ -19,87 +20,53 @@
     <!-- =========================
         Header 
     =========================== -->
-    <header class="header header-transparent">
+    <header class="header header-layout3">
+      <div class="header__top d-none d-sm-block">
+        <p class="header__promo-text text-center mb-0">
+          <strong>Butuh Bantuan:</strong><span> Memberikan Solusi Inovatif dan Berkelanjutan, Hubungi (62) 8999319766</span>
+        </p>
+      </div>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/logo.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav mr-auto ml-auto">
+            <ul class="navbar-nav ml-auto">
               <li class="nav__item with-dropdown">
                 <a href="index.html" class="nav__item-link">Home</a>
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link active">Products</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Products</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="about-us.html" class="nav__item-link">About Us</a>
+                    <a href="portfolio-website.html" class="nav__item-link">Portfolio Website</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="about-me.html" class="nav__item-link">About me</a>
+                    <a href="portfolio-grid.html" class="nav__item-link">Personal Website</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="our-team.html" class="nav__item-link">Our Team</a>
+                    <a href="portfolio-single-big-gallery.html" class="nav__item-link">Company Profile</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="our-services.html" class="nav__item-link">Our services</a>
+                    <a href="portfolio-grid.html" class="nav__item-link">Games</a>
                   </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="our-pricing.html" class="nav__item-link">Our pricing</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="contacts.html" class="nav__item-link">Contact Us</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="faqs.html" class="nav__item-link">faqs</a>
-                  </li> <!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Services</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="portfolio-grid.html" class="nav__item-link">portfolio Grid</a>
+                    <a href="portfolio-single-big-gallery.html" class="nav__item-link">Websites</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="portfolio-gallery.html" class="nav__item-link">portfolio Gallery</a>
+                    <a href="portfolio-single-big-gallery.html" class="nav__item-link">Design Products</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="portfolio-masonry.html" class="nav__item-link">portfolio Masonry</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item dropdown-submenu">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Portfolio Details</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav__item">
-                        <a href="portfolio-single-small-images.html" class="nav__item-link">small images</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-big-images.html" class="nav__item-link">big images</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-small-slider.html" class="nav__item-link">small slider</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-big-slider.html" class="nav__item-link">big slider</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-small-gallery.html" class="nav__item-link">small gallery</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-big-gallery.html" class="nav__item-link">big gallery</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-small-masonry.html" class="nav__item-link">small masonry</a>
-                      </li><!-- /.nav-item -->
-                      <li class="nav__item">
-                        <a href="portfolio-single-big-masonry.html" class="nav__item-link">big masonry</a>
-                      </li><!-- /.nav-item -->
-                    </ul><!-- /.dropdown-menu -->
+                    <a href="portfolio-single-big-gallery.html" class="nav__item-link">Games</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
@@ -107,61 +74,19 @@
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Support</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="blog-grid.html" class="nav__item-link">Blog Grid</a>
+                    <a href="about-us.html" class="nav__item-link">Contact Us</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="blog-grid-sidebar.html" class="nav__item-link">Blog Grid Sidebar</a>
+                    <a href="about-us.html" class="nav__item-link">About Us</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="blog-carousel.html" class="nav__item-link">Blog carousel</a>
+                    <a href="blog-carousel.html" class="nav__item-link">Blog</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="blog-standard.html" class="nav__item-link">Blog Standard</a>
+                    <a href="faqs.html" class="nav__item-link">Faqs</a>
                   </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="blog-single.html" class="nav__item-link">Blog single</a>
-                  </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
-              </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
           </div><!-- /.navbar-collapse -->
-          <div class="navbar-actions">
-            <ul class="navbar__actions-list list-unstyled mb-0 d-flex align-items-center">
-              <li>
-              </li>
-              <li><a href="contacts.html" class="action__btn btn btn__white action__btn-contact">Contact</a></li>
-              <li><a href="#" class="action__btn action__btn-humburgerMenu"><i class="icon-menu"></i></a></li>
-            </ul><!-- /.navbar__actions-list -->
-
-            <div class="cart-popup">
-              <ul class="list-unstyled">
-                <li class="cart-item">
-                  <div class="cart__item-img"><img src="assets/images/shop/thumbs/1.png" alt="thumb"></div>
-                  <div class="cart__item-content">
-                    <h6 class="cart__item-title">Mismo Briefcase</h6>
-                    <div class="cart__item-detail"><span>1 x</span>$ 38.00</div>
-                    <i class="cart__item-delete">&times;</i>
-                  </div><!-- /.cart-item-content -->
-                </li><!-- /.cart-item -->
-                <li class="cart-item">
-                  <div class="cart__item-img"><img src="assets/images/shop/thumbs/2.png" alt="thumb"></div>
-                  <div class="cart__item-content">
-                    <h6 class="cart__item-title">Brown Leather</h6>
-                    <div class="cart__item-detail"><span>1 x</span>$ 33.00</div>
-                    <i class="cart__item-delete">&times;</i>
-                  </div><!-- /.cart-item-content -->
-                </li><!-- /.cart-item -->
-              </ul>
-              <div class="cart-subtotal d-flex justify-content-between">
-                <span>Subtotal:</span>
-                <span class="color-theme">$71.00</span>
-              </div><!-- /.cart-subtotal -->
-              <div class="cart-action d-flex justify-content-between">
-                <a href="#" class="btn btn__primary">View Cart</a>
-                <a href="#" class="btn btn__secondary">Checkout</a>
-              </div><!-- /.cart-action -->
-            </div><!-- /.cart-popup -->
-          </div><!-- /.navbar-actions -->
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
